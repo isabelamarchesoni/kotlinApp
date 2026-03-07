@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0F6"
+    tools:context=".view.LeiOhmActivity">
+
+    <TextView
+        android:id="@+id/txt_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora Lei de Ohm"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:layout_marginTop="120dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/etTensao"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Digite a Tensão (V)"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#E91E63"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@id/txt_titulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/etResistencia"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Digite a Resistência (Ω)"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#E91E63"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/etTensao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/etCorrente"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Digite a Corrente (A)"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#E91E63"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/etResistencia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E91E63"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/etCorrente"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado aparecerá aqui"
+        android:textSize="20sp"
+        android:textColor="#880E4F"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/btnCalcular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
