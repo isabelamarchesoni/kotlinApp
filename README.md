@@ -1,4 +1,4 @@
-# 📱 App Android - Exercícios Kotlin
+# 📱 App Android - Exercícios Kotlin 
  
 Aplicativo Android desenvolvido em **Kotlin** com três funcionalidades independentes: mensagem de boas-vindas, conversor de temperatura e calculadora da Lei de Ohm.
  
@@ -52,12 +52,24 @@ V = R × I
   <tr>
     <th align="center">👋 Boas-Vindas</th>
     <th align="center">🌡️ Conversor de Temperatura</th>
-    <th align="center">⚡ Lei de Ohm</th>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/boas_vindas.png" width="220" alt="Tela de Boas-Vindas"/></td>
-    <td align="center"><img src="screenshots/conversor_temperatura.png" width="220" alt="Conversor de Temperatura"/></td>
-    <td align="center"><img src="screenshots/lei_ohm.png" width="220" alt="Lei de Ohm"/></td>
+    <td align="center"><img src="screenshots/boas_vindas.jpeg" width="220" alt="Tela de Boas-Vindas"/></td>
+    <td align="center"><img src="screenshots/conversor_temperatura.jpeg" width="220" alt="Conversor de Temperatura"/></td>
+  </tr>
+</table>
+### ⚡ Lei de Ohm
+ 
+<table>
+  <tr>
+    <th align="center">Calculando Tensão (V)</th>
+    <th align="center">Calculando Resistência (R)</th>
+    <th align="center">Calculando Corrente (I)</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/lei_ohm1.jpeg" width="220" alt="Calculando Tensão (V)"/></td>
+    <td align="center"><img src="screenshots/lei_ohm2.jpeg" width="220" alt="Calculando Resistência (R)"/></td>
+    <td align="center"><img src="screenshots/lei_ohm3.jpeg" width="220" alt="Calculando Corrente (I)"/></td>
   </tr>
 </table>
 ---
