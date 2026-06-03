@@ -10,13 +10,15 @@
 
     <TextView
         android:id="@+id/txt_titulo"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Calculadora Lei de Ohm"
         android:textSize="28sp"
         android:textStyle="bold"
         android:textColor="#E91E63"
+        android:gravity="center"
         android:layout_marginTop="120dp"
+        android:paddingHorizontal="16dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>

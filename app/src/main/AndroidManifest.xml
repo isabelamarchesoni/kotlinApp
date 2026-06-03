@@ -12,18 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin"
         tools:targetApi="31">
+
         <activity
-            android:name=".Conversorctivity"
-            android:exported="false" />
-        <activity
-            android:name=".view.BemVindoActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".view.BemVindoActivity" android:exported="false"/>
+        <activity android:name=".view.ConversorActivity" android:exported="false"/>
+        <activity android:name=".view.LeiOhmActivity" android:exported="false"/>
+
     </application>
 
 </manifest>
